@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@300;500;600;700&family=Roboto&display=swap');
+/* General styles */
+:root
+{
+    --white:#fff;
+    --gray:#262626;
+}
+
+ /*
+ font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; 
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+
+
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    text-align: center;
+
+    background: url(../images/library.jpg) no-repeat center center/ cover;
+    /* background-repeat: no-repeat; */
+}
+.container
+{
+    /* background-color: azure; */
+    min-width: 50vw;
+    height: 30vh;
+
+    border-radius: 5%;
+}
+.header
+{
+    font-size: 1.2rem;
+
+    margin: .5rem auto;
+    padding: .5rem;
+    
+    border: solid 2px var(--white) ;
+    color: var(--white);
+    background: var(--gray);
+
+    border-radius: 4px;
+}
+
+.main-content
+{
+    background-color: var(--white);
+
+    width: 100%;
+}
