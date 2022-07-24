@@ -117,16 +117,20 @@ body
 {
     position: fixed;
 
-    top: calc(13%);
+    top: calc(10%);
     right: calc(46%);
     
 }
 .img-area img
 {
     width: 150px;
-    height: auto;
+    height: 150px;
 
-    border-radius: 16px;
+    border-radius:16px;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+        box-shadow: 8px 8px 10px 0 var(--white), -5px -5px 5px 0 var(--gray), 5px 5px 15px 0 var(--white);  
+
 }
 
 @media only screen and (max-width: 600px){
