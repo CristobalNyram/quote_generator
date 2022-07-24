@@ -1,5 +1,11 @@
 'use strict';
 
+    document.onreadystatechange = () => {
+    if (document.readyState === 'complete') {
+        alertify.message('Welcome to my JS sentence generator by Cristobal Nyram');
+    }
+  };
+
 //variable
 let btn =document.getElementById('new-quote');
 let quote =document.querySelector('.quote');
