@@ -1,2 +1,3 @@
 # quote_generator
-This a basic app that generate quotes
+This is a basic app that generate quotes.
+
